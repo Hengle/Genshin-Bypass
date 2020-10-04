@@ -20,13 +20,13 @@ Some functionalities were being packed.
 Also there are a lots of global variables.  
 Felt a bad code.
 
-### What `"mhyprot2"` registers:
+### What mhyprot2 registers:
 
 - **`PsSetCreateProcessNotifyRoutineEx`**
 - **`PsSetLoadImageNotifyRoutine`**
 - **`PsSetCreateThreadNotifyRoutine`**
 
-### What `"mhyprot2"` does:
+### What mhyprot2 does:
 
 - Observing for `csrss.exe` injection.
 - Remove process/thread object from all handle tables.
@@ -69,5 +69,3 @@ LABEL_9:
   return sub_140003D08(pEProcess) == 4;
 }
 ```
-
-![IMAGE](analysis01.png)
